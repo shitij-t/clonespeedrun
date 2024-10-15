@@ -1,0 +1,123 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+root {
+	purple: #c432b8;
+	darkbg: #efe7d8;
+}
+
+.font-bold {
+	font-family: "Agdasima", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+
+.montserrat-normal {
+	font-family: "Montserrat", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 600;
+	font-style: normal;
+}
+
+body {
+	background-color: #fff8e9;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-inline: 4rem;
+	gap: 2rem;
+	margin-top: 2rem;
+}
+
+header>img {
+	height: 5rem;
+}
+
+
+header>ul {
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+	border-radius: 35px;
+	padding: 7px;
+	background-color: #efe7d8;
+	color: #32043b;
+}
+
+li {
+	list-style: none;
+	padding: 0.7rem;
+	border-radius: 30px;
+	font-size: 0.8rem;
+}
+
+li:hover {
+	background-color: white;
+	color: #c432b8;
+	padding: 0.7rem;
+	border-radius: 30px;
+}
+
+header>button {
+	color: #c432b8;
+	padding: 0.7rem;
+	border-radius: 30px;
+	border: 3px solid #c432b8;
+	background: #fff8e9;
+}
+
+main {
+	max-width: 50%;
+	margin-left: 5rem;
+	padding-top: 2rem;
+}
+
+main>h1 {
+	color: #c432b8;
+	font-size: 4rem;
+	font-weight: 400;
+	margin: auto;
+	line-height: 3.3rem;
+}
+
+main>h2 {
+	padding-top: 1.5rem;
+	font-weight: 400;
+	color: #32043bb6;
+	font-size: 0.8rem;
+	line-height: 1.5rem;
+}
+
+main>button {
+	margin-top: 2rem;
+	background-color: #c432b8;
+	color: white;
+	padding: 0.8rem;
+	border-radius: 30px;
+	border: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: .5rem;
+}
+
+button>svg {
+	padding: .2rem;
+	background-color: #32043b;
+	border-radius: 50px;
+	fill: white;
+	height: 1.5rem;
+}
+
+.heroimg {
+	position: absolute;
+	top: 300px;
+	left: 0;
+}
